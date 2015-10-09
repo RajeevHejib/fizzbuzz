@@ -11,17 +11,14 @@ class Game
     calc(numb, 15)
   end
 
-  private
   def divisible_by_3?(numb)
     calc(numb, 3)
   end
 
-  private
   def divisible_by_5?(numb)
     calc(numb, 5)
   end
 
-  private
   def calc(numb, divisor)
     numb % divisor == 0
   end
